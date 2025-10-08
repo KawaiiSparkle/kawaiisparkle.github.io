@@ -202,36 +202,24 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: KawaiiSparkle
         # Author title
-        author_title: Your title
+        author_title: "曹植七步成诗，你九步诗人"
         # Author's current location
-        location: Your location
+        location: Earth,Solar System
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://upload-bbs.miyoushe.com/upload/2024/04/17/82913111/ec484c4c491060e2c8a7ad3562b6cc24_4219015776397658398.jpg?x-oss-process=image/resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,jpg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/KawaiiSparkle
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+                url: https://github.com/KawaiiSparkle
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
