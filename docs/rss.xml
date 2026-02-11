@@ -1,28 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>乐子人花火酱|KawaiiSparkle的Blog</title><link>https://kawaiisparkle.github.io</link><description>曹植七步成诗，你九步诗人</description><copyright>乐子人花火酱|KawaiiSparkle的Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://upload-bbs.miyoushe.com/upload/2024/04/17/82913111/ec484c4c491060e2c8a7ad3562b6cc24_4219015776397658398.jpg</url><title>avatar</title><link>https://kawaiisparkle.github.io</link></image><lastBuildDate>Sun, 19 Oct 2025 16:25:47 +0000</lastBuildDate><managingEditor>乐子人花火酱|KawaiiSparkle的Blog</managingEditor><ttl>60</ttl><webMaster>乐子人花火酱|KawaiiSparkle的Blog</webMaster><item><title>玩了一年Galgame后给想要入坑的人的作品推荐名单（纯主观）</title><link>https://kawaiisparkle.github.io/post/wan-le-yi-nian-Galgame-hou-gei-xiang-yao-ru-keng-de-ren-de-zuo-pin-tui-jian-ming-dan-%EF%BC%88-chun-zhu-guan-%EF%BC%89.html</link><description># 全年龄（下载游玩的必要性不大，可以直接去B站搜索找到全流程全结局的视频进行观看）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>乐子人花火酱|KawaiiSparkle的Blog</title><link>https://kawaiisparkle.github.io</link><description>曹植七步成诗，你九步诗人</description><copyright>乐子人花火酱|KawaiiSparkle的Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://upload-bbs.miyoushe.com/upload/2024/04/17/82913111/ec484c4c491060e2c8a7ad3562b6cc24_4219015776397658398.jpg</url><title>avatar</title><link>https://kawaiisparkle.github.io</link></image><lastBuildDate>Wed, 11 Feb 2026 17:08:19 +0000</lastBuildDate><managingEditor>乐子人花火酱|KawaiiSparkle的Blog</managingEditor><ttl>60</ttl><webMaster>乐子人花火酱|KawaiiSparkle的Blog</webMaster><item><title>玩了一年Galgame后给想要入坑的人的作品推荐名单（纯主观）</title><link>https://kawaiisparkle.github.io/post/wan-le-yi-nian-Galgame-hou-gei-xiang-yao-ru-keng-de-ren-de-zuo-pin-tui-jian-ming-dan-%EF%BC%88-chun-zhu-guan-%EF%BC%89.html</link><description># 全年龄（下载游玩的必要性不大，可以直接去B站搜索找到全流程全结局的视频进行观看）
 ## 《星空列车与白的旅行》
 ![星白列车](https://img.moegirl.org.cn/common/9/9d/%E6%98%9F%E3%82%B7%E3%83%AD_%E3%82%AB%E3%83%90%E3%83%BC.jpg)
 - 剧情简介
 &gt;乘坐的列车，划破夜空，
-飞驰在星空之下。</description><guid isPermaLink="true">https://kawaiisparkle.github.io/post/wan-le-yi-nian-Galgame-hou-gei-xiang-yao-ru-keng-de-ren-de-zuo-pin-tui-jian-ming-dan-%EF%BC%88-chun-zhu-guan-%EF%BC%89.html</guid><pubDate>Sun, 19 Oct 2025 08:41:34 +0000</pubDate></item><item><title>通过利用CVE-2025-31710间接实现给某个搭载安卓9的完全不可能利用下载模式(指FDL1和FDL2)的展讯设备获取Root权限</title><link>https://kawaiisparkle.github.io/post/tong-guo-li-yong-CVE-2025-31710-jian-jie-shi-xian-gei-mou-ge-da-zai-an-zhuo-9-de-wan-quan-bu-ke-neng-li-yong-xia-zai-mo-shi-%28-zhi-FDL1-he-FDL2%29-de-zhan-xun-she-bei-huo-qu-Root-quan-xian.html</link><description># 通过利用[CVE-2025-31710](https://nvd.nist.gov/vuln/detail/CVE-2025-31710)和sGSI间接实现给某个搭载安卓9的完全不可能利用下载模式(指FDL1和FDL2)的展讯方案学习机获取Root权限
-## Time
-2025/6/25~30
-Latest Edited:2025/10/12
-## Author
-[Github@KawaiiSparkle](https://github.com/kawaiiSparkle)
-[Github@PurpleHang](https://github.com/purplehang)
-## Intro 
-众所周知，某品牌的学习机零售版目前最多人拥有的是搭载了紫光(Unisoc)芯片方案的那一类机型，而在这下面目前有 三种芯片[^1]，分别为：
-- ud710(aka.T7510/T710/T740)：绝大多数机型（aa：X2Pro/X3Pro/老C6、C8等；ab：T10/T20/新C6、C8系 ；ad-0：A10/C10系列 ；ad-1:S30系列，但不包括S30T；ad-2：P30/Q30，不包括P30-5G；ad-3:可能是仅能插电的Lumie10），目前全部都是安卓9
-- ums312(aka.T310)：仅Q10及一些电子办公本，安卓9
-- ums9620(aka.T760)：后续大批量机型，如T30Lite、S30T(urbo)、Lumie10Pro，安卓13
-之前很长一段时间（大概3年左右），仅ud710-ad方案一直处于只能解锁Bootloader以及使用我通过精简部分系统组件得到的sGSI但无法被攻克的状态，但随着出现了CVE-2025-31710这个漏洞，事情开始有了转机…………
-## 实验环境
-因为我总不可能真的去搞一堆ud710-ad的机型回来（太容易坏了），所以等效一下就用了一台官解并解了BL锁的CB-C6s-STU(C1)机型来尝试使用该漏洞进行利用(感谢[Github@PurpleHang](https://github.com/purplehang)提供平板并花了大概一周陪我搞实验)，这样实验失败砖机时可以通过下载模式重置实验环境至初始状态
-顺带一提，本机型的SELinux一直是Enforcing状态
-
-## 探究如何利用CVE漏洞+分析public SELinux策略文件
-使用CVE漏洞提取出vendor分区
-尝试直接把precompiled_sepolicy相关部分删掉并刷回去，发现并没有什么变化
-尝试使用早茶光给的方法进行system-root，寄
-分别尝试直接给vendor_sepolicy.cil与plat_pub_versioned.cil文件的最底部加上全局宽容，刷回去，不开机了，说明这两个中某项改了可能有用。</description><guid isPermaLink="true">https://kawaiisparkle.github.io/post/tong-guo-li-yong-CVE-2025-31710-jian-jie-shi-xian-gei-mou-ge-da-zai-an-zhuo-9-de-wan-quan-bu-ke-neng-li-yong-xia-zai-mo-shi-%28-zhi-FDL1-he-FDL2%29-de-zhan-xun-she-bei-huo-qu-Root-quan-xian.html</guid><pubDate>Sun, 12 Oct 2025 15:17:46 +0000</pubDate></item></channel></rss>
+飞驰在星空之下。</description><guid isPermaLink="true">https://kawaiisparkle.github.io/post/wan-le-yi-nian-Galgame-hou-gei-xiang-yao-ru-keng-de-ren-de-zuo-pin-tui-jian-ming-dan-%EF%BC%88-chun-zhu-guan-%EF%BC%89.html</guid><pubDate>Sun, 19 Oct 2025 08:41:34 +0000</pubDate></item></channel></rss>
