@@ -1,0 +1,1 @@
+imgpatchtools-rs是一个纯用AI写的（Arena，力的gemini gpt还有claude以及kimi编程助手）开源ota全平台处理工具，目前只支持处理有.dat和.list文件的这种传统ota更新包的全量包和差分包，还支持一些解析super镜像和合成super镜像的功能，如果要使用这个功能，请先提取出你设备中的这个super镜像，确认它的LP标准版本和是raw或者sparse格式
