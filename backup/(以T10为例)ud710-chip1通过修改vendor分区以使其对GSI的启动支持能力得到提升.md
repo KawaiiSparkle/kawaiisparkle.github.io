@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>乐子人花火酱|KawaiiSparkle的Blog</title><link>https://kawaiisparkle.github.io</link><description>曹植七步成诗，你九步诗人</description><copyright>乐子人花火酱|KawaiiSparkle的Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://upload-bbs.miyoushe.com/upload/2024/04/17/82913111/ec484c4c491060e2c8a7ad3562b6cc24_4219015776397658398.jpg</url><title>avatar</title><link>https://kawaiisparkle.github.io</link></image><lastBuildDate>Wed, 10 Jun 2026 18:10:51 +0000</lastBuildDate><managingEditor>乐子人花火酱|KawaiiSparkle的Blog</managingEditor><ttl>60</ttl><webMaster>乐子人花火酱|KawaiiSparkle的Blog</webMaster><item><title>(以T10为例)ud710-chip1通过修改vendor分区以使其对GSI的启动支持能力得到提升</title><link>https://kawaiisparkle.github.io/post/%28-yi-T10-wei-li-%29ud710-chip1-tong-guo-xiu-gai-vendor-fen-qu-yi-shi-qi-dui-GSI-de-qi-dong-zhi-chi-neng-li-de-dao-ti-sheng.html</link><description>## 首发于[linearteam.top](https://www.linearteam.top/%e4%bb%a5t10%e4%b8%ba%e4%be%8bud710-chip1%e9%80%9a%e8%bf%87%e4%bf%ae%e6%94%b9vendor%e5%88%86%e5%8c%ba%e4%bb%a5%e4%bd%bf%e5%85%b6%e5%af%b9gsi%e7%9a%84%e5%90%af%e5%8a%a8%e6%94%af%e6%8c%81%e8%83%bd/)
+## 首发于[linearteam.top](https://www.linearteam.top/%e4%bb%a5t10%e4%b8%ba%e4%be%8bud710-chip1%e9%80%9a%e8%bf%87%e4%bf%ae%e6%94%b9vendor%e5%88%86%e5%8c%ba%e4%bb%a5%e4%bd%bf%e5%85%b6%e5%af%b9gsi%e7%9a%84%e5%90%af%e5%8a%a8%e6%94%af%e6%8c%81%e8%83%bd/)
 # 前言
 从2021年年底我第一次拿到这个平板开始,我就想要像我之前(2018~2020年)在B站看到的晨钟酱玩机的视频一样,给我这台平板刷个GSI玩.但可惜的是,不同于MTK和高通相对而言很好的GSI兼容性,我实际能拿到的这台可以说是刚好是非常难开的这种类型(咬牙切齿),甚至比较古老的X2Pro/X3Pro/老C6这种他们属于chip0类的芯片对GSI的兼容性可谓是非常好,甚至能开到15.
 
@@ -73,4 +72,4 @@ https://www.linearteam.top/wp-content/uploads/2026/06/862e7e21c9d97bae0d55a900d4
 
 理论上Chip2和以后遇到类似问题的都可以直接照上面这么改vendor.
 
-为什么这个机器目前还上不了15呢,因为它音频的HIDL实现可能有点问题,不兼容更高版本,然后就因为音频炸了,system_server在等它成功加载(其实成功不了)时因为超时就被watchdog杀了,如此循环往复,这system_server和audio的HIDL可真是一对苦命鸳鸯啊(。</description><guid isPermaLink="true">https://kawaiisparkle.github.io/post/%28-yi-T10-wei-li-%29ud710-chip1-tong-guo-xiu-gai-vendor-fen-qu-yi-shi-qi-dui-GSI-de-qi-dong-zhi-chi-neng-li-de-dao-ti-sheng.html</guid><pubDate>Wed, 10 Jun 2026 18:02:46 +0000</pubDate></item></channel></rss>
+为什么这个机器目前还上不了15呢,因为它音频的HIDL实现可能有点问题,不兼容更高版本,然后就因为音频炸了,system_server在等它成功加载(其实成功不了)时因为超时就被watchdog杀了,如此循环往复,这system_server和audio的HIDL可真是一对苦命鸳鸯啊(
